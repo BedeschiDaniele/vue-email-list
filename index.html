@@ -4,9 +4,14 @@
     <meta charset="utf-8">
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js" integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ==" crossorigin="anonymous"></script>
-    <title>email-list</title>
+    <title>email-list-Axios</title>
   </head>
   <body>
+    <div class="root">
+      <ul>
+        <li v-for="email in randomEmails">{{email}}</li>
+      </ul>
+    </div>
     <script src="js/script.js" charset="utf-8"></script>
   </body>
 </html>
